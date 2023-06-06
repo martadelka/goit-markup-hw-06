@@ -70,5 +70,8 @@
      <symbol id="icon-checkmark" viewBox="0 0 20 20">
       <path d="m0 11 2-2 5 5L18 3l2 2L7 18z"/>
     </symbol>
+    <symbol id="icon-send" viewBox="0 0 32 32">
+      <path fill="#fff" style="fill:var(--color1, #fff)" d="m32 2.667-32 15 10.227 3.156L26 8.5 14.002 21.988l.01.003-.012-.003v7.345l5.735-5.576L27 25.999l5-23.333z"/>
+    </symbol>
   </defs>
 </svg>
