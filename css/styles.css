@@ -932,7 +932,7 @@ input {
 .contact-form-field-wrapper {
   display: block;
   font-size: 12px;
-  line-height: 12px;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--subtle-text);
   margin-bottom: 4px;
@@ -1021,27 +1021,16 @@ input {
   margin-bottom: 24px;
 }
 
-.contact-form-own-checkbox {
-  border: 1px solid rgba(46, 47, 66, 40%);
-  border-radius: 4px;
-  padding: 3px;
-  cursor: pointer;
-  margin-right: 8px;
-}
-
 .contact-form-checkmark-icon {
   opacity: 0;
 }
 
-.contact-form-checkbox:checked + .contact-form-own-checkbox {
+.contact-form-checkbox:checked + .privacy-text {
   border: none;
   background-color: var(--pressed-state);
-}
-
-.contact-form-checkbox:checked + .contact-form-own-checkbox > .contact-form-checkmark-icon {
-  opacity: 1;
   fill: var(--modal-background);
 }
+
 
 .contact-form-checkbox {
   appearance: none;
