@@ -1025,7 +1025,7 @@ input {
   opacity: 0;
 }
 
-.contact-form-checkbox:checked .privacy-text {
+.input:checked + .label > .span {
   border: none;
   background-color: var(--pressed-state);
   fill: var(--modal-background);
@@ -1033,8 +1033,11 @@ input {
 
 
 .contact-form-checkbox {
-  appearance: none;
   position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+
 }
 
 .contact-form-checkbox-wrapper {
