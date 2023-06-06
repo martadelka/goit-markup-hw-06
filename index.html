@@ -425,16 +425,19 @@
               </a>
             </li>
           </ul>
-          <!-- Subscription form -->
-          <form class="subscribe-form" name="subscribe_form" novalidate>
-            <p class="footer-par" >Subscribe</p>
+        </div>
+        <!-- Subscription form -->
+        <div class="subscribe-form">
+          <p class="footer-par" >Subscribe</p>
+          <form class="subscribe-form-wrapper" name="subscribe_form" novalidate>
             <label class="subscribe-form-wrapper">
               <input class="subscribe-form-input" type="email" name="subscribe_form_input" placeholder="E-mail">
-            <button class="subscribe-btn button" type="submit" >Subscribe</button>
-            <svg class="subscribe-btn-icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-send" ></use>
-            </svg>
             </label>
+            <button class="subscribe-btn button" type="submit" >
+              Subscribe
+              <svg class="subscribe-btn-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send" ></use>
+              </svg></button>
           </form>
         </div>
       </div>
@@ -448,10 +451,12 @@
           </svg>
         </button>
         <!-- Modal form -->
-        <form class="contact-form" novalidate>
+        <div class="modal-form-container">
           <p class="modal-title">
             Leave your contacts and we will call you back
           </p>
+        <form class="contact-form" novalidate>
+          <div class="contact-form-div">
           <label class="contact-form-field-wrapper">
             <span class="contact-form-field-desc">Name</span>
             <span class="contact-form-input-wrapper">
@@ -523,11 +528,12 @@
           <button
             class="send-button order-service button"
             type="submit"
-            class="contact-form-submit"
           >
             Send
           </button>
+          </div>
         </form>
+        </div>
       </div>
     </div>
     <!-- JS connection-->
